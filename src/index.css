@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(20, 20, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: orangered;
+}
+
+/* Loading */
+
+.loader,
+.loader:before,
+.loader:after {
+  background: transparent;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+
+.loader {
+  color: crimson;
+  text-indent: -9999em;
+  margin: 88px auto;
+  margin-top: 20rem;
+  position: relative;
+  font-size: 3rem;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+
+.loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.loader:after {
+  left: 1.5em;
+}
+
+@-webkit-keyframes load1 {
+
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+
+@keyframes load1 {
+
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+
+.section-title {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    font-family: "Rajdhani", sans-serif;
+    letter-spacing: 0.124rem;
+    color: crimson;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+  }

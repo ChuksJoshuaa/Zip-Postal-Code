@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Zip Code Validation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://res.cloudinary.com/chuksmbanaso/image/upload/v1651118596/media/Screenshot_49_j7pfk5.png" title="Zip Code" alt="Zip Code">.
+
+<img src="https://res.cloudinary.com/chuksmbanaso/image/upload/v1651118741/media/Screenshot_51_hgmite.png" title="Zip Code" alt="Zip Code">.
 
 ## Available Scripts
 
